@@ -6,18 +6,17 @@ body{
 
 .container{
     width: 65%;
-    /* padding: 2rem; */
     margin: 100px auto;
     display: flex;
-    border-radius: 10px;
+   
 
 }
 
 .card{
     width: 100%;
     padding: 2rem 2.5rem;
-    /* border-radius: 20px 0 0 20px ; */
 }
+
 
 .sedan{
     background-color: #e28525;
@@ -30,6 +29,7 @@ body{
     background-color: #00403f;
     border-radius: 0 10px 10px 0;
 }
+
 .vehicle-classification{
     font-size: 35px;
     color: white;
@@ -38,17 +38,15 @@ body{
 }
 .note{
     font-family: 'Questrial', sans-serif;
-    font-size: 16.5px;
+    font-size: 17px;
     font-weight: 200;
     color: #ffff;
     line-height: 1.5;
     margin-bottom: 25px;
     opacity:  0.6;
-    
-    
-    /* width: 92%; */
 
 }
+
 .learn-more{
     padding: 10px 15px;
     border-radius: 20px;
@@ -56,29 +54,78 @@ body{
     cursor: pointer;
     margin: 20px 0;
 }
+
 .learn-more:hover {
     color: white;
 }
+
 .sedanbtn{
-    /* background-color: #e28525;*/
+    
     color: #e28525;
     
 }
+
 .sedanbtn:hover{
     background-color: #e28525;
     border: 2px solid white;
 }
+
 .suvbtn{
     color: #016972;
 }
+
 .suvbtn:hover{
     background-color: #016972;
     border: 2px solid white;
 }
+
 .luxurybtn{
     color: #00403f;
 }
+
 .luxurybtn:hover{
     background-color: #00403f;
     border: 2px solid white;
+}
+@media screen and (max-width: 950px) {
+   
+  .container{
+    width:40%;
+    flex-direction: column;
+    margin-right: auto;
+    
+  }
+  .card{
+    width: 100%;
+    
+  }
+  img{
+    width: 30%;
+  }
+  .sedan{
+    border-radius: 10px 10px 0 0;
+    
+    
+  }
+  .luxury{
+    border-radius: 0 0 10px 10px;
+  }
+  .vehicle-classification{
+    margin-top: 22px;
+    margin-bottom: 25px;
+    font-weight: 300;
+    font-size: 55px;
+    
+  }
+  .note{
+    font-size: 25px;
+    margin: 25px  0;
+  }
+  .learn-more{
+    padding: 20px 30px;
+    border-radius: 30px;
+  }
+}
+@media screen and (max-width: 580px) {
+    
 }
