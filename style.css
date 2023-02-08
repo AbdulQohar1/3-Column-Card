@@ -14,7 +14,7 @@ body{
 
 .card{
     width: 100%;
-    padding: 2rem 2.5rem;
+    padding: 2rem 2.3rem;
 }
 
 
@@ -44,6 +44,7 @@ body{
     line-height: 1.5;
     margin-bottom: 25px;
     opacity:  0.6;
+    
 
 }
 
@@ -87,21 +88,21 @@ body{
     background-color: #00403f;
     border: 2px solid white;
 }
+
+
 @media screen and (max-width: 950px) {
    
-  .container{
+.container{
     width:40%;
     flex-direction: column;
-    margin-right: auto;
     
   }
-  .card{
-    width: 100%;
-    
-  }
-  img{
-    width: 30%;
-  }
+    .card{
+        padding: 20px 45px;
+    }
+
+ 
+  
   .sedan{
     border-radius: 10px 10px 0 0;
     
@@ -118,14 +119,31 @@ body{
     
   }
   .note{
-    font-size: 25px;
-    margin: 25px  0;
+    font-size: 20px;
+    margin: 18px  0;
   }
   .learn-more{
     padding: 20px 30px;
     border-radius: 30px;
   }
 }
-@media screen and (max-width: 580px) {
     
+
+@media screen and (max-width: 480px) {
+    .container{
+        width: 48%;
+        margin: 25px auto;
+    }
+    
+   .note{
+    font-size: 16px;
+   } 
+}
+@media screen and (max-width: 1400px) {
+    .container{
+        width: 80%;
+    }
+    .note{
+        font-size: 16.5px;
+    }
 }
