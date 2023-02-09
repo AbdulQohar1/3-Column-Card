@@ -8,13 +8,12 @@ body{
     width: 65%;
     margin: 100px auto;
     display: flex;
-   
-
 }
 
 .card{
-    width: 100%;
-    padding: 2rem 2.3rem;
+    /* width: 100%; */
+    /* padding: 2rem 2.3rem; */
+    padding: 12px 15px;
 }
 
 
@@ -90,42 +89,35 @@ body{
 }
 
 
-@media screen and (max-width: 950px) {
-   
-.container{
-    width:40%;
-    flex-direction: column;
-    
-  }
+@media screen and (max-width: 950px) { 
+    .container{
+        width:40%;
+        flex-direction: column;
+        margin: 50px auto;
+    }
     .card{
         padding: 20px 45px;
     }
-
- 
-  
-  .sedan{
-    border-radius: 10px 10px 0 0;
-    
-    
-  }
-  .luxury{
-    border-radius: 0 0 10px 10px;
-  }
-  .vehicle-classification{
-    margin-top: 22px;
-    margin-bottom: 25px;
-    font-weight: 300;
-    font-size: 55px;
-    
-  }
-  .note{
-    font-size: 20px;
-    margin: 18px  0;
-  }
-  .learn-more{
-    padding: 20px 30px;
-    border-radius: 30px;
-  }
+    .sedan{
+        border-radius: 10px 10px 0 0;
+    }
+    .luxury{
+        border-radius: 0 0 10px 10px;
+    }
+    .vehicle-classification{
+        margin-top: 22px;
+        margin-bottom: 25px;
+        font-weight: 300;
+        font-size: 55px;
+    }
+    .note{
+        font-size: 20px;
+        margin: 18px  0;
+    }
+    .learn-more{
+        padding: 20px 30px;
+        border-radius: 30px;
+    }
 }
     
 
